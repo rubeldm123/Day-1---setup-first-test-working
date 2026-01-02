@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
 
-test.only('Login and navigate to PIM module using stable locators', async({page})=>{
+test('Login and navigate to PIM module using stable locators', async({page})=>{
     //1.Go to OrangeHRM Logoin page
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     //2.Enter username(using placeholder -stable locator)

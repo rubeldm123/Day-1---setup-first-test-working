@@ -8,7 +8,7 @@ export default defineConfig({
   // ✅ Reporters: HTML + Allure
   reporter: [
     ['html', { open: 'never' }],
-    ['allure-playwright'],
+    // ['allure-playwright'],
   ],
 
   // ✅ Global "use" defaults (can still run with --headed)
